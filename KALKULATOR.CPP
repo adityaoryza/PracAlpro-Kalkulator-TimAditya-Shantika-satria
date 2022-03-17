@@ -36,7 +36,7 @@ int main(){
         cout << " \t\t OPERASI PENGURANGAN" << endl;
         cout << " Masukan angka pertama : ";
         cin >> angka1;
-        cout << " Masukan angka kedua  : ";
+        cout << " Masukan angka kedua   : ";
         cin >> angka2;
         cout << " Maka hasil pengurangan " << angka1 << " - " << angka2 << " yaitu : " << angka1 - angka2 << endl;
         cout << " Apakah Anda akan melanjutkan penghitungan? (y/n)\t:";
@@ -50,9 +50,9 @@ int main(){
     case 3 :
         cout << " \t\t OPERASI PERKALIAN" << endl;
         cout << " Masukkan angka pertama    : "; cin >> angka1;
-        cout << " Masukkan angka kedua    : "; cin >> angka2;
+        cout << " Masukkan angka kedua      : "; cin >> angka2;
         cout << " Maka hasil perkalian " << angka1 << " x " << angka2 << " yaitu : " << angka1 * angka2 << endl;
-        cout << " Apakah Anda akan melanjutkan penghitungan? (y/n)  :"; cin >> lanjut;
+        cout << " Apakah Anda akan melanjutkan penghitungan? (y/n)\t:"; cin >> lanjut;
         if(lanjut=='y'){
             goto menu;}
         else{

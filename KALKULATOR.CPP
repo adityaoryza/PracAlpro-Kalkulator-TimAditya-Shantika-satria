@@ -34,9 +34,9 @@ int main(){
         }
     case 2 : 
         cout << " \t\t OPERASI PENGURANGAN" << endl;
-        cout << " Masukan angka pertama : ";
+        cout << " Masukkan angka pertama : ";
         cin >> angka1;
-        cout << " Masukan angka kedua   : ";
+        cout << " Masukkan angka kedua   : ";
         cin >> angka2;
         cout << " Maka hasil pengurangan " << angka1 << " - " << angka2 << " yaitu : " << angka1 - angka2 << endl;
         cout << " Apakah Anda akan melanjutkan penghitungan? (y/n)\t:";

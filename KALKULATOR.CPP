@@ -1,8 +1,8 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 int main(){
     char lanjut;
-    int angka1,angka2,pilih;
+    int angka1, angka2, pilih;
     cout << "\t\t PROGRAM KALKULATOR SEDERHANA " << endl;
     cout << "\t PROGRAM INI DIKERJAKAN OLEH TIM DENGAN ANGGOTA : " << endl;
     cout << "\t 1. ADITYA ORYZA MAHENDRA (2100018401) " << endl;
@@ -27,7 +27,7 @@ int main(){
         cout << " Maka hasil penjumlahan " << angka1 << " + " << angka2 << " = " << angka1 + angka2 << endl;
         cout << " Apakah Anda akan melanjutkan penghitungan? (y/n)\t:";
         cin >> lanjut;
-        if (lanjut=='y'){
+        if (lanjut == 'y'){
             goto menu;
         }
         else {
@@ -43,7 +43,7 @@ int main(){
         cout << " Maka hasil pengurangan " << angka1 << " - " << angka2 << " = " << angka1 - angka2 << endl;
         cout << " Apakah Anda akan melanjutkan penghitungan? (y/n)\t:";
         cin >> lanjut;
-        if (lanjut=='y'){
+        if (lanjut == 'y'){
             goto menu;
         }
         else {
@@ -56,7 +56,7 @@ int main(){
         cout << " Masukkan angka kedua\t: "; cin >> angka2;
         cout << " Maka hasil perkalian " << angka1 << " x " << angka2 << " = " << angka1 * angka2 << endl;
         cout << " Apakah Anda akan melanjutkan penghitungan? (y/n)\t:"; cin >> lanjut;
-        if (lanjut=='y'){
+        if (lanjut == 'y'){
             goto menu;}
         else{
             goto end;
@@ -71,7 +71,7 @@ int main(){
         cout << " Maka hasil pembagian " << angka1 << " : " << angka2 << " = " << angka1 / angka2 << endl;
         cout << " Apakah Anda akan melanjutkan penghitungan? (y/n)\t:";
         cin >> lanjut;
-        if (lanjut =='y')
+        if (lanjut == 'y')
         {
             goto menu;
         }

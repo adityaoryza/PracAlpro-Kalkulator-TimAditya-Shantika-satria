@@ -8,7 +8,7 @@ int main(){
     cout << "\t PROGRAM INI DIKERJAKAN OLEH TIM DENGAN ANGGOTA : " << endl;
     cout << "\t 1. ADITYA ORYZA MAHENDRA (2100018401) " << endl;
     cout << "\t 2. SATRIA DZAILAMI (2100018384) " << endl;
-    cout << " Masukkan operasi yang akan Anda kerjakan : " << endl;
+    cout << " Pilihan Operasi Kalkulator : " << endl;
     cout << " 1. Penjumlahan " << endl;
     cout << " 2. Pengurangan " << endl;
     cout << " 3. Perkalian  " << endl;

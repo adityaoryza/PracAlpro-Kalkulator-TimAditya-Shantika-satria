@@ -83,6 +83,7 @@ int main(){
         break;
             
     default :
+        cout << " Pilihan tidak tersedia " << endl;
         break;
     }
     end :

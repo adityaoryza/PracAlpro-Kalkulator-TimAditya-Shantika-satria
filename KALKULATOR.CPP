@@ -3,7 +3,6 @@ using namespace std;
 int main(){
     char lanjut;
     int angka1,angka2,pilih;
-    menu :
     cout << "\t\t PROGRAM KALKULATOR SEDERHANA " << endl;
     cout << "\t PROGRAM INI DIKERJAKAN OLEH TIM DENGAN ANGGOTA : " << endl;
     cout << "\t 1. ADITYA ORYZA MAHENDRA (2100018401) " << endl;
@@ -14,7 +13,8 @@ int main(){
     cout << " 2. Pengurangan " << endl;
     cout << " 3. Perkalian  " << endl;
     cout << " 4. Pembagian  " << endl;
-    cout << " Masukkan operasi yang akan dipilih : ";
+    menu :
+    cout << "\n Masukkan operasi yang akan dipilih : ";
     cin >> pilih;
     switch (pilih)
     {
@@ -24,13 +24,14 @@ int main(){
         cin >> angka1;
         cout << " Masukkan angka kedua\t: ";
         cin >> angka2;
-        cout << " Maka hasil penjumlahan " << angka1 << " + " << angka2 << " yaitu : " << angka1 + angka2 << endl;
+        cout << " Maka hasil penjumlahan " << angka1 << " + " << angka2 << " = " << angka1 + angka2 << endl;
         cout << " Apakah Anda akan melanjutkan penghitungan? (y/n)\t:";
         cin >> lanjut;
-        if(lanjut=='y'){
+        if (lanjut=='y'){
             goto menu;
         }
         else {
+            goto end;
             break;
         }
     case 2 : 
@@ -39,65 +40,51 @@ int main(){
         cin >> angka1;
         cout << " Masukkan angka kedua\t: ";
         cin >> angka2;
-        cout << " Maka hasil pengurangan " << angka1 << " - " << angka2 << " yaitu : " << angka1 - angka2 << endl;
+        cout << " Maka hasil pengurangan " << angka1 << " - " << angka2 << " = " << angka1 - angka2 << endl;
         cout << " Apakah Anda akan melanjutkan penghitungan? (y/n)\t:";
         cin >> lanjut;
-        if(lanjut=='y'){
+        if (lanjut=='y'){
             goto menu;
         }
         else {
+            goto end;
             break;
         }
     case 3 :
         cout << " \t\t OPERASI PERKALIAN" << endl;
         cout << " Masukkan angka pertama\t: "; cin >> angka1;
         cout << " Masukkan angka kedua\t: "; cin >> angka2;
-        cout << " Maka hasil perkalian " << angka1 << " x " << angka2 << " yaitu : " << angka1 * angka2 << endl;
+        cout << " Maka hasil perkalian " << angka1 << " x " << angka2 << " = " << angka1 * angka2 << endl;
         cout << " Apakah Anda akan melanjutkan penghitungan? (y/n)\t:"; cin >> lanjut;
-        if(lanjut=='y'){
+        if (lanjut=='y'){
             goto menu;}
         else{
+            goto end;
             break;}
-        {
-            goto menu;
-        }
-        else
-        {
-            goto akhir;
-            break;
-        }
-        break;
+     
     case 4:
-        cout << " OPERASI PEMBAGIAN!!" << endl;
-        cout << " Masukan angka pertama : ";
+        cout << " \t\t OPERASI PEMBAGIAN" << endl;
+        cout << " Masukkan angka pertama\t: ";
         cin >> angka1;
-        cout << " Masukan angka kedua  : ";
+        cout << " Masukkan angka kedua\t: ";
         cin >> angka2;
-        cout << " Maka hasil Perkalian " << angka1 << " : " << angka2 << " yaitu : " << angka1 / angka2 << endl;
-        cout << " Apakah anda akan melanjutkan penghitungan? (y/n)\t:";
+        cout << " Maka hasil pembagian " << angka1 << " : " << angka2 << " = " << angka1 / angka2 << endl;
+        cout << " Apakah Anda akan melanjutkan penghitungan? (y/n)\t:";
         cin >> lanjut;
-        if (lanjut == 'y')
+        if (lanjut =='y')
         {
             goto menu;
         }
         else
         {
-            goto akhir;
-
+            goto end;
             break;
         }
         break;
-    akhir:
-    default:
-        cout << " PROGRAM SELESAI DIJANALANKAN!!";
-
+            
+    default :
         break;
     }
-    return 0;
-}
-        break;
-
-    default:
-        break;
-    }
+    end :
+    cout << " \n\t\t PROGRAM SELESAI DIJALANKAN " << endl;
 }   
